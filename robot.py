@@ -9,6 +9,7 @@ from wpilib.command import Scheduler
 class Marvin(CommandBasedRobot):
 
     def robotInit(self):
+
         pass
 
     def disabledInit(self):
