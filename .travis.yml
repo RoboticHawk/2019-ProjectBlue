@@ -1,1 +1,7 @@
 language: python
+
+install:
+  - pip install pyfrc robotpy-ctre numpy
+
+script:
+  - py -3 robot.py coverage test
